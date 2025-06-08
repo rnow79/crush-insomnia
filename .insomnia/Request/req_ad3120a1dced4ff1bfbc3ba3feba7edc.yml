@@ -1,0 +1,23 @@
+_id: req_ad3120a1dced4ff1bfbc3ba3feba7edc
+type: Request
+parentId: fld_9a340e256af04282a73693a629708815
+modified: 1749373405122
+created: 1749373341572
+url: "{{ _.url.bin }}/generate/key"
+name: generate token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1749373341572
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

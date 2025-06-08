@@ -1,0 +1,14 @@
+_id: env_51f43fc7d4085681bfe3e2e3cdc62d145cdc7990
+type: Environment
+parentId: wrk_54f42293188746eaa067c29754b835d1
+modified: 1749373309543
+created: 1749373275622
+name: Base Environment
+data:
+  env: ~/crush/secrets/insomnia.env
+dataPropertyOrder:
+  "&":
+    - env
+color: null
+isPrivate: false
+metaSortKey: 1749373275622

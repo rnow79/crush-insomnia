@@ -1,0 +1,24 @@
+_id: env_bad7989ef973457bb1f044269707cf01
+type: Environment
+parentId: env_51f43fc7d4085681bfe3e2e3cdc62d145cdc7990
+modified: 1749373330401
+created: 1749373310084
+name: local
+data:
+  GLOBAL_HEADERS:
+    Claims: "{% dotenv _.env, 'claims' %}"
+  base-url: localhost
+  url:
+    bin: localhost
+dataPropertyOrder:
+  "&":
+    - GLOBAL_HEADERS
+    - base-url
+    - url
+  "&~|GLOBAL_HEADERS":
+    - Claims
+  "&~|url":
+    - bin
+color: "#efff0a"
+isPrivate: false
+metaSortKey: 1749373310084
