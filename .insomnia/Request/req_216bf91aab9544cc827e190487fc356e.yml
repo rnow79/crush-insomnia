@@ -1,10 +1,10 @@
 _id: req_216bf91aab9544cc827e190487fc356e
 type: Request
 parentId: fld_9a340e256af04282a73693a629708815
-modified: 1749373417244
+modified: 1749373459291
 created: 1749373397808
 url: "{{ _.url.bin }}/generate/token"
-name: New Request
+name: generate key
 description: ""
 method: POST
 body: {}
