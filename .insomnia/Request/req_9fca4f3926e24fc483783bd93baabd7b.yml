@@ -1,10 +1,10 @@
-_id: req_216bf91aab9544cc827e190487fc356e
+_id: req_9fca4f3926e24fc483783bd93baabd7b
 type: Request
-parentId: fld_9a340e256af04282a73693a629708815
-modified: 1749897945192
-created: 1749373397808
-url: "{{ _.url.bin }}/create/key"
-name: create key
+parentId: fld_0832620e2b704e079cf6d77e55ea3d98
+modified: 1749900079153
+created: 1749899160151
+url: "{{ _.url.webhook }}/azure/ping"
+name: azure ping
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1749373397808
+metaSortKey: -1749899160151
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

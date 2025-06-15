@@ -1,12 +1,12 @@
-_id: req_ad3120a1dced4ff1bfbc3ba3feba7edc
+_id: req_fc02e707dfb049068e4f1d8d84bba6f0
 type: Request
 parentId: fld_9a340e256af04282a73693a629708815
-modified: 1749967914328
-created: 1749373341572
-url: "{{ _.url.bin }}/create/token"
-name: create token
+modified: 1749973002300
+created: 1749972478431
+url: "{{ _.url.bin }}/create/dev/token/arnau"
+name: create dev token
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
@@ -22,7 +22,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1749373341572
+metaSortKey: -1749373341547
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

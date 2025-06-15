@@ -1,0 +1,39 @@
+_id: req_2ac38d5968f44cd9a70d48b000c19ca9
+type: Request
+parentId: fld_0832620e2b704e079cf6d77e55ea3d98
+modified: 1749907261730
+created: 1749900071461
+url: "{{ _.url.webhook }}/azure/registry"
+name: azure registry
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"action": "push",
+    	"target": {
+    		"repository": "bin",
+    		"tag": "dev"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: apikey
+  disabled: false
+  key: Crush-Key
+  value: "{% dotenv _.env, 'azure_registry_key' %}"
+  addTo: header
+metaSortKey: -1749636278979.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

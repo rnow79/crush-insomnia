@@ -1,19 +1,26 @@
-_id: req_216bf91aab9544cc827e190487fc356e
+_id: req_feacfa5f401140ac9477047dc7056661
 type: Request
 parentId: fld_9a340e256af04282a73693a629708815
-modified: 1749897945192
-created: 1749373397808
-url: "{{ _.url.bin }}/create/key"
-name: create key
+modified: 1749897974377
+created: 1749895860131
+url: "{{ _.url.bin }}/create/string/token"
+name: create string token
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"string": "hola"
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1749373397808
+metaSortKey: -1745682961891.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,19 +1,26 @@
-_id: req_216bf91aab9544cc827e190487fc356e
+_id: req_b7d38977ecbc49d1ba8c7ea8ac6e14be
 type: Request
 parentId: fld_9a340e256af04282a73693a629708815
-modified: 1749897945192
-created: 1749373397808
-url: "{{ _.url.bin }}/create/key"
-name: create key
+modified: 1749898563505
+created: 1749897981522
+url: "{{ _.url.bin }}/validate/string/token"
+name: validate string token
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"token": "hello.signature"
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1749373397808
+metaSortKey: -1744299069598.4688
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

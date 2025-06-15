@@ -1,10 +1,10 @@
-_id: req_216bf91aab9544cc827e190487fc356e
+_id: req_67f1dcd8350d46f4a24649d2d267b0bb
 type: Request
 parentId: fld_9a340e256af04282a73693a629708815
-modified: 1749897945192
-created: 1749373397808
-url: "{{ _.url.bin }}/create/key"
-name: create key
+modified: 1749380922360
+created: 1749380903781
+url: "{{ _.url.bin }}/get/log_events"
+name: get log events
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1749373397808
+metaSortKey: -1745682961991.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

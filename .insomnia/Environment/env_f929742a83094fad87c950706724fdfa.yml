@@ -1,0 +1,34 @@
+_id: env_f929742a83094fad87c950706724fdfa
+type: Environment
+parentId: env_51f43fc7d4085681bfe3e2e3cdc62d145cdc7990
+modified: 1749977736737
+created: 1749889895529
+name: dev
+data:
+  GLOBAL_HEADERS:
+    Authorization: Bearer {% dotenv _.env, 'token' %}
+    Crush-Dev-Token: "{% dotenv _.env, 'dev_token' %}"
+  base-url: dev.crush-systems.com
+  url:
+    bin: dev.crush-systems.com/api/bin
+    company: dev.crush-systems.com/api/company
+    login: dev.crush-systems.com/api/login
+    user: dev.crush-systems.com/api/user
+    webhook: dev.crush-systems.com/api/webhook
+dataPropertyOrder:
+  "&":
+    - GLOBAL_HEADERS
+    - base-url
+    - url
+  "&~|GLOBAL_HEADERS":
+    - Authorization
+    - Crush-Dev-Token
+  "&~|url":
+    - bin
+    - company
+    - login
+    - user
+    - webhook
+color: "#ff0000"
+isPrivate: false
+metaSortKey: 1749889895529
