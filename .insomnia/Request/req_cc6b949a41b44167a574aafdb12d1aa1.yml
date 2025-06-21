@@ -1,0 +1,33 @@
+_id: req_cc6b949a41b44167a574aafdb12d1aa1
+type: Request
+parentId: fld_da9a533447dd41e2948434ac02e0f7a0
+modified: 1750500799097
+created: 1750498034100
+url: "{{ _.url.user }}/create"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"company": 1,
+    	"firstName": "Arnau",
+    	"password": "patata!!!",
+    	"username": "arnau"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1750498034100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
