@@ -1,0 +1,23 @@
+_id: req_38e2c6b89075487cbb82bb1a910c8994
+type: Request
+parentId: fld_79cc92a40eb04d21aec4f9c00d6c8726
+modified: 1752766665902
+created: 1752765498331
+url: https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/2T1BR32E56C640079?format=json
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1752765498331
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

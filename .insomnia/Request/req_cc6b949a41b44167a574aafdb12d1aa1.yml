@@ -1,7 +1,7 @@
 _id: req_cc6b949a41b44167a574aafdb12d1aa1
 type: Request
 parentId: fld_da9a533447dd41e2948434ac02e0f7a0
-modified: 1750500799097
+modified: 1753270197969
 created: 1750498034100
 url: "{{ _.url.user }}/create"
 name: create
@@ -11,10 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"company": 1,
-    	"firstName": "Arnau",
-    	"password": "patata!!!",
-    	"username": "arnau"
+    	"company": "{{ _['crush-company-uid'] }}",
+    	"firstName": "Carlos",
+    	"lastName": "Matheu",
+    	"password": "patatita",
+    	"username": "carlos"
     }
 parameters: []
 headers:
