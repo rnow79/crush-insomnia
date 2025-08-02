@@ -1,0 +1,23 @@
+_id: req_0faa6fd63881417b9116ed9423ff7d46
+type: Request
+parentId: fld_e28e5576e6c4431a9b7c803726c8cf75
+modified: 1754066937986
+created: 1754066213313
+url: "{{ _.url.bmc }}/quotes-old?size=10&page=2"
+name: list old quotes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1754066221360
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

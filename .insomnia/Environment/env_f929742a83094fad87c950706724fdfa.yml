@@ -1,7 +1,7 @@
 _id: env_f929742a83094fad87c950706724fdfa
 type: Environment
 parentId: env_51f43fc7d4085681bfe3e2e3cdc62d145cdc7990
-modified: 1753270176859
+modified: 1754066260125
 created: 1749889895529
 name: dev
 data:
@@ -11,6 +11,7 @@ data:
   crush-company-uid: 64dd0c68-1575-4404-a895-f0d452c7c6fa
   url:
     bin: dev.crushsoftware.com/api/bin
+    bmc: dev.crushsoftware.com/api/bmc
     company: dev.crushsoftware.com/api/company
     login: dev.crushsoftware.com/api/login
     user: dev.crushsoftware.com/api/user
@@ -25,6 +26,7 @@ dataPropertyOrder:
     - Authorization
   "&~|url":
     - bin
+    - bmc
     - company
     - login
     - user

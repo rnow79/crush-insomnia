@@ -1,7 +1,7 @@
 _id: env_bad7989ef973457bb1f044269707cf01
 type: Environment
 parentId: env_51f43fc7d4085681bfe3e2e3cdc62d145cdc7990
-modified: 1753270166505
+modified: 1754066273583
 created: 1749373310084
 name: local
 data:
@@ -12,6 +12,7 @@ data:
   url:
     auth: localhost
     bin: localhost
+    bmc: localhost
     company: localhost
     login: localhost
     user: localhost
@@ -27,6 +28,7 @@ dataPropertyOrder:
   "&~|url":
     - auth
     - bin
+    - bmc
     - company
     - login
     - user
